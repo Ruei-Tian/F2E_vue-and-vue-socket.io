@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Ruei",
+      "userType": "giver",
+      "userId": 123,
+      "email": "123@gmail.com",
+      "rooms": [
+        {
+          "roomId": "123@gmail.com456@gmail.com",
+          "createTime": 123456
+        }
+      ],
+      "bookedTime": [
+        {
+          "date": 123456,
+          "status": 1,
+          "taker": "Peter",
+          "takerEmail": "456@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userName": "Peter",
+      "userType": "taker",
+      "userId": 123,
+      "email": "123@gmail.com",
+      "rooms": [
+        {
+          "roomId": "123@gmail.com456@gmail.com",
+          "createTime": 123456
+        }
+      ],
+      "bookedTime": [
+        {
+          "date": 123456,
+          "status": 1,
+          "taker": "Peter",
+          "takerEmail": "456@gmail.com"
+        }
+      ]
+    },
+    {
+      "userName": "Weng",
+      "id": 3
+    }
+  ]
+}
